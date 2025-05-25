@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # โหลดข้อมูล
-df = pd.read_excel(r"C:\Users\front\Excel_forexfinal\Coca-Cola_6Mdaily.xlsx")
+df = pd.read_excel(r"Coca-Cola_6Mdaily.xlsx")
 
 # ตั้งชื่อคอลัมน์ใหม่
 df.columns = ["Date", "Price", "Open", "High", "Low", "Vol.", "Change%", "NYSE Index"]
