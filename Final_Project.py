@@ -104,7 +104,7 @@ if len(X) > 0:
     plt.plot(pd.to_datetime(df_sorted["Date"]), trend, label="Trend (Linear Regression)", linestyle="--", color="red")
     plt.title(f"Coca-Cola LineChart ({time_period})")
     plt.xlabel("Date")
-    plt.ylabel("Closing Price (Baht)")
+    plt.ylabel("Closing Price (USD)")
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
